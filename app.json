@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/bindwxapp",
+    "pages/my/linklist",
+    "pages/my/wxapplist",
+    "pages/my/my",
+    "pages/index/addwxapp",
+    "pages/index/addunilink",
+    "pages/index/addurllink",
+    "pages/index/wxappdetail",
+    "pages/index/addlink",
+    "pages/index/linkdetail",
+    "pages/index/premiums",
+    "pages/index/webpage",
+    "pages/index/unilink"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#0257DA",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/images/index.png",
+        "selectedIconPath": "static/images/indexsec.png"
+      },
+      {
+        "pagePath": "pages/my/linklist",
+        "text": "我的链接",
+        "iconPath": "static/images/mylinks.png",
+        "selectedIconPath": "static/images/mylinksec.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "个人中心",
+        "iconPath": "static/images/my.png",
+        "selectedIconPath": "static/images/mysec.png"
+      }
+    ]
+  },
+  "navigateToMiniProgramAppIdList": [],
+  "sitemapLocation": "sitemap.json"
+}
